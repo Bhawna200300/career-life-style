@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-headline: "Poppins", sans-serif;
+  --font-body-md: "Inter", sans-serif;
+
+  --color-primary: #06104c;
+  --color-primary-container: #1e2761;
+  --color-on-primary-container: #8790d0;
+
+  --color-secondary: #4e5f7a;
+  --color-secondary-container: #ccdefe;
+  --color-on-secondary-container: #50627d;
+
+  --color-tertiary: #2c1100;
+  --color-tertiary-container: #4b2100;
+  --color-on-tertiary-container: #c6855a;
+
+  --color-surface-bright: #f8f9ff;
+  --color-surface-dim: #ccdbf3;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #eff4ff;
+  --color-surface-container: #e6eeff;
+  --color-surface-container-high: #dce9ff;
+  --color-surface-container-highest: #d5e3fc;
+
+  --color-on-surface: #0d1c2e;
+  --color-on-surface-variant: #464650;
+  --color-outline: #767681;
+  --color-outline-variant: #c6c5d1;
+
+  --color-background-custom: #f8f9ff;
+  --color-on-background-custom: #0d1c2e;
+}
+
+/* Glassmorphism custom styling utilities */
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.elevation-1 {
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: 0 4px 6px -1px rgba(30, 39, 97, 0.05);
+}
+
+.elevation-2 {
+  border: 1px solid rgba(204, 222, 254, 0.8);
+  box-shadow: 0 10px 15px -3px rgba(30, 39, 97, 0.1);
+}
+
+/* Smooth custom styles */
+.map-gradient {
+  background: linear-gradient(135deg, #e6eeff 0%, #d4e3ff 100%);
+}
+

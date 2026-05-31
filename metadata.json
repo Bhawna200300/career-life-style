@@ -1,0 +1,6 @@
+{
+  "name": "Career Lift System",
+  "description": "An institutional, high-trust career pathway guidance platform featuring skills assessments, AI-driven career exploration, job match statistics, and education finding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
